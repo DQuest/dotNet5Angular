@@ -1,3 +1,9 @@
+#home-logo {
+    cursor: pointer;
+    cursor: hand;
+}
+
 .home-toolbar-spacer {
   flex: 1 1 auto;
 }
+

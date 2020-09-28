@@ -7,7 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material-module';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    // Здесь объявляем компоненты, которые будут разложены по папкам, внутри app
+    /*
+     * DashboardComponent,
+     * HeroDetailComponent,
+    */
+    AppComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
